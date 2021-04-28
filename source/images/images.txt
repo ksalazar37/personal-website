@@ -1,0 +1,9 @@
+icons
+- social media icons
+- other icons
+
+logo 
+- logo files
+
+photos 
+- portrait 

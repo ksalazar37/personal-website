@@ -1,0 +1,879 @@
+/* color scheme 
+
+*/
+
+
+/* possible typefaces */
+
+/* display: "Bungee Hairline"
+serif: Cormorant Garamond   Noto Serif  Crimson Text    Source Serif Pro 
+Goudy Bookletter 1911   Noto Serif JP   Amiri   Vollkorn   Noticia Text
+Cardo     Prata   Neuton  Gentium Basic    Gentium Book Classic    Lusitana
+Eczar   Noto Serif SC   Adamina     Markazi Text   Noto Serif KR
+Sorts Mill Goudy    Shippori Mincho B1      Average     Ovo     Cormorant Infant
+Poly    Fanwood Text
+
+techy: Play  Lekton   Chakra Petch    Jura    Alef    Armata      Quantico    Aldrich
+Cambay  Geo     Share Tech      Bungee Hairline     Oxanium     Iceland
+Press Start 2P
+tech!: DotGothic16
+
+monospace: Trispace     Share Tech Mono     Roboto Mono     Source Code Pro
+IBM Plex Mono   Inconsolata     Space Mono  PT Mono     Cutive Mono     VT323
+Major Mono Display      Fira Code       DM Mono 
+
+serif (art): Nova Mono, Nova Round, Offside, Unica One
+
+minimal: Wire One
+
+sans serif (bold, display): Antonio     Oswald  Open Sans Condensed
+Barlow Condensed    Rajdhani    Monda   Khand   Strait  
+
+sans serif (caps): "Alegreya Sans SC"  Carrois Gothic SC
+sans serif (reg): "Inter" "Noto Sans KR"   "Abel"
+
+cursive: "Satisfy" "La Belle Aurore" "Laila"
+handwriting (caps): "Patrick Hand SC" "Handmade Apple" Lacquer Mrs Saint Delafield
+
+handwriting (lowercase): "Itim" */
+
+
+/* headings */
+
+body {
+    background-color: #4271b3;
+    color: #4271b3;
+    margin: 0 0 100px;
+}
+
+#content {
+    min-height: calc(100vh - 40px);
+}
+
+
+section {
+    min-height: 100vh; /* minus the height of the footer */
+}
+
+h1 {
+    font-family: "Bungee Hairline";
+    font-size: 70px;
+    color: #000000;
+    letter-spacing: 5px;
+    line-height: 20px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+
+/* heading for each page */
+
+h3 {
+    font-family: "Bungee Hairline";
+    font-size: 55px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+
+
+table {
+    width: 95%;
+}
+
+.logodiv {
+    width: 40px;
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+th img {
+    display: block;
+    margin: auto;
+    width: 70px;
+}
+
+.homenamek {
+    font-family: "Cormorant Garamond";
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-variant: small-caps;
+    width: 100%;
+    line-height: 65px;
+    color: #1e3453;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+}
+
+.homenames {
+    font-family: "Cormorant Garamond";
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-variant: small-caps;
+    width: 100%;
+    line-height: 6px;
+    color: #1e3453;
+    padding: 10px;
+    background-color: #4271b3;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+}
+.homenamei {
+    background-color: #4271b3;
+    font-family: "Mrs Saint Delafield";
+    font-size: 80px;
+    font-style: bold;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    color: #1e3453;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
+}
+
+.regnamek {
+    font-family: "Cormorant Garamond";
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-variant: small-caps;
+    width: 100%;
+    line-height: 35px;
+    color: #1e3453;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+}
+
+.regnames {
+    font-family: "Cormorant Garamond";
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-variant: small-caps;
+    width: 100%;
+    line-height: 6px;
+    color: #1e3453;
+    padding: 10px;
+    background-color: #4271b3;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+}
+
+.regnamei {
+    background-color: #4271b3;
+    font-family: "Mrs Saint Delafield";
+    font-size: 40px;
+    font-style: bold;
+    line-height: 10px;
+    text-align: center;
+    width: 100%;
+    color: #1e3453;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+
+
+
+/* navigation  */
+
+.navigation {
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    color: #4271b3;
+}
+
+.navigationhome {
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    color: #4271b3;
+} 
+
+
+
+nav {
+    color: #4271b3;
+}
+
+
+/* images */
+
+.banner {
+    max-width: 100%;
+    height: 540px;
+    object-fit: contain;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 15px;
+    height: 15px;
+}
+
+/* landing page links */
+.landing{
+    background-color: #4271b3;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+}
+
+
+
+/* text in front of banner slideshow */
+
+.welcome {
+    position: absolute;
+    top: 18.5%;
+    translate: (-50%, -50%);
+    width: 100%;
+    padding: 20px;
+    padding-top: 155px;
+    padding-bottom: 156px;
+    text-align: center;
+    background-color: #00000048;
+    font-family: "Cormorant Garamond";
+    font-size: 35px;
+    line-height: 20px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.descriptiondiv {
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background-color: #4271b3;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 70px;
+}
+
+.contact {
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background-color: #4271b3;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-top: 20px;
+    border-width: 1px;
+    padding-left: 70px;
+    padding-right: 70px;
+    transition: 0.4s;
+}
+
+.mailto {
+    color: #000000;
+    background-color: #e7e0d7;
+    padding: 10px 10px;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ext {
+    color: #000000;
+    background-color: #e7e0d7;
+    padding: 5px 5px;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* CONNECT PAGE */
+
+.socialmedia {
+    text-align: center;
+    background-color: #4271b3;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 25px;
+    word-spacing: 20px;
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #4271b3;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #4271b3;
+    color: white;
+}
+
+
+/* instagram */
+
+.fa-instagram {
+    background: #4271b3;
+    color: white;
+}
+
+
+/* form for connect page */
+
+.connectform {
+    color: #693434;
+    font-family: "Alegreya Sans SC";
+    font-size: 25px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    width: 55%;
+    transition: 0.3s;
+}
+
+.input_text {
+    width: 70%;
+    background-color: #e4d2c7;
+    padding: 10px 10px;
+    margin: 20px 20px;
+    margin-left: 60px;
+    font-size: 17px;
+    border-style: none;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond";
+}
+
+.login_input {
+    width: 100%;
+    background-color: #e4d2c7;
+    padding: 10px 10px;
+    margin: 35px 35px;
+    margin-left: 60px;
+    font-size: 16px;
+    border-style: none;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond";
+}
+
+.register_l {
+    color: #000000;
+    padding: 10px 20px;
+    background-color: #3365c1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.register_l:hover {
+    background-color: #4271b3;
+    color: #ffffff;
+}
+
+.comments {
+    font-family: "Cormorant Garamond";
+    font-size: 17px;
+    width: 96%;
+    background-color: #e4d2c7;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.buttons {
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #965248;
+    color: #f1f1f1;
+    cursor: pointer;
+    background-color: #965248;
+    font-family: "Alegreya Sans SC";
+    font-size: 22px;
+}
+
+.bsdiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    background-color: #4271b3;
+}
+
+.buttons:hover {
+    background-color: #965248c2;
+}
+
+
+/* drop down menus  */
+
+.all {
+    width: 100%;
+}
+
+
+/* general text */
+
+div {
+    font-family: "Alegreya Sans SC";
+    background-color: #e7e0d7;
+    width: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+/* input boxes */
+
+
+/* checkboxes & radio boxes */
+
+
+/* links */
+
+a:link {
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #3365c180;
+    color: #ffffff;
+}
+
+a:active {
+    color: #4271b3;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #051b42;
+}
+
+.ahome {
+    color: #4271b3;
+}
+
+.alogin {
+    color: #4271b3;
+}
+
+.aregister {
+    color: #4271b3;
+}
+
+.aconect {
+    color: #4271b3;
+}
+
+.acontact {
+    color: #4271b3;
+}
+
+.landinglinkP {
+    background: #79a2db;
+}
+.landinglinkA {
+    background: #79a2db;
+}
+
+.landinglinkP:hover{
+    background: #38619b;
+    border-style: solid;
+    color: #e7e0d7;
+    border-width: 2px;
+    font-size: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family:"Share Tech Mono";
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+.landinglinkA:hover{
+    background: #1d3d66;
+    color: #e7e0d7;
+    border-style: solid;
+    border-width: 2px;
+    font-family: "Homemade Apple";
+    font-size: 32px;
+    line-height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+/* sticky footer */
+
+.pf {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #e4d2c7;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    font-family: "Cormorant Garamond";
+    font-size: 20px;
+    background: linear-gradient(0deg, rgba(3,19,47,1) 0%, rgba(66,113,179,0.6867121848739496) 100%);
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
+}
+
+
+/* popup login form */
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+.popupwindow {
+    background-color:#081a35;
+    width: 300px;
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container input[type=text],
+.form-container input[type=email],
+.form-container input[type=password] {
+    max-width: 300px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container .btn {
+    background-color: #478b49;
+    color: white;
+    padding: 14px 14px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    font-family: "Alegreya Sans SC";
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.form-container .cancel {
+    background-color: #aa3a3a;
+}
+
+#registrationForm {
+    background-color: #e7e0d7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    text-align: left;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-bottom: 70px;
+    height: 470px;
+    color: #081a35;
+    font-size: 20px;
+}
+
+
+/* LOGIN.HTML */
+
+.loginpage {
+    background-color: #e7e0d7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    text-align: left;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-bottom: 70px;
+    height: 362px;
+    color: #081a35;
+    font-size: 19px;
+}
+
+.log_btn {
+    background-color: #478b49;
+    color: white;
+    padding: 14px 14px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 70px;
+    opacity: 0.6;
+    font-family: "Alegreya Sans SC";
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.log_btn:hover {
+    background-color: #478b49;
+    color: white;
+    padding: 14px 14px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+    font-family: "Alegreya Sans SC";
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.register_lp {
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #d36f59b4;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.register_lp:hover {
+    background-color: #4271b3;
+    color: #ffffff;
+}
+
+.input_textr {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    margin: 10px 8px;
+    margin-left: 60px;
+    font-size: 17px;
+    border-style: none;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond";
+}
+
+
+/* register / login  button */
+
+#reg {
+    padding: 8px 24px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #965248;
+    color: #f1f1f1;
+    cursor: pointer;
+    margin-left: 60px;
+    background-color: #965248;
+    font-family: "Alegreya Sans SC";
+    font-size: 19px;
+}
+
+#clear {
+    padding: 8px 22px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #a87168;
+    color: #f1f1f1;
+    cursor: pointer;
+    background-color: #a87168;
+    font-family: "Alegreya Sans SC";
+    font-size: 19px;
+}
+
+#reg:hover {
+    opacity: 0.6;
+}
+
+#clear:hover {
+    opacity: 0.8;
+}
+
+#adviceBox {
+    font-family: "Cormorant Garamond";
+    font-size: 17px;
+    color: #9c655d;
+    width: 85%;
+    margin-left: 30px;
+    background-color: #e7e0d7;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+#resultsdiv {
+    width: 815px;
+    text-align: center;
+}
+
+#resultstable {
+    width: 815px;
+}
+
+#resultsform {
+    width: 815px;
+}
+
+#ajaxDiv {
+    width: 815px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ALinks {
+    background-color: #4271b3;
+    color: #f7dfd2;
+    font-family: "Cormorant Garamond";
+    line-height: 20px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
