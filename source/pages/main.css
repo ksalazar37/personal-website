@@ -625,6 +625,16 @@ a:visited {
     padding-bottom: 50px;
 }
 
+.projects{
+    background-color: #9db5da;
+    color:#05142b;
+    font-family: "Roboto Mono";
+    font-size: 15px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* column widths */
 .one {
     min-width: 35%;
@@ -650,6 +660,11 @@ a:visited {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.projpic{
+    width: 23%;
 }
 
 /* list items */
