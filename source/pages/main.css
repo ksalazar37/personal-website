@@ -635,6 +635,16 @@ a:visited {
     padding-bottom: 50px;
 }
 
+.skills{
+    background-color: #bac9df;
+    color:#05142b;
+    font-family: "Roboto Mono";
+    font-size: 15px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* column widths */
 .one {
     min-width: 35%;
@@ -661,6 +671,7 @@ a:visited {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 
 .projpic{
